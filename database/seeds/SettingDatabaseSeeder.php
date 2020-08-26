@@ -22,16 +22,16 @@ class SettingDatabaseSeeder extends Seeder
             'default_currency' => 'USD',
             'store_email' => 'admin@ecommerce.com',
             'search_engine' => 'mysql',
-            'local_pickup_cost' => '0',
-            'outer_label' => '0',
-            'free_shiping' => '0',
+            'local_shippings_cost' => '0',
+            'outer_shippings_cost' => '0',
+            'free_shippings_cost' => '0',
 
             'translatable' => [
                 'store_name' => 'Flee',
                 'free_shiping_label' => 'Free Shiping',
                 'lcoal_label' => 'local shiping',
                 'outer_label' => 'outer shipiing',
-            ]
+            ],
 
 
         ]);
