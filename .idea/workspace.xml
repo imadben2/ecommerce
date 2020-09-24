@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="01e285e3-f2e8-4ee8-b210-eafc8f2b7d03" name="Default Changelist" comment="" />
+    <list default="true" id="01e285e3-f2e8-4ee8-b210-eafc8f2b7d03" name="Default Changelist" comment="add translate">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +31,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -117,18 +141,40 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/astrotomic/laravel-translatable" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
     </include_path>
   </component>
   <component name="ProjectId" id="1g9EmsObvtujKItvxNgsNW83AP6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ecommerce_formation\app\models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ecommerce_formation\resources\lang\en" />
+      <recent name="C:\xampp\htdocs\ecommerce_formation\resources\lang\ar\admin" />
+      <recent name="C:\xampp\htdocs\ecommerce_formation\resources\lang" />
+      <recent name="C:\xampp\htdocs\ecommerce_formation\app\Helpers" />
+      <recent name="C:\xampp\htdocs\ecommerce_formation\resources\views\dashborad\settings\shippings" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -145,17 +191,103 @@
       <option name="presentableId" value="Default" />
       <updated>1597518572059</updated>
       <workItem from="1597518573726" duration="62000" />
-      <workItem from="1597518647756" duration="21000" />
+      <workItem from="1597518647756" duration="4994000" />
+      <workItem from="1597574442597" duration="108000" />
+      <workItem from="1597574563286" duration="870000" />
+      <workItem from="1597585372374" duration="3000" />
+      <workItem from="1597758386005" duration="5736000" />
+      <workItem from="1597786416605" duration="1066000" />
+      <workItem from="1597821091815" duration="3415000" />
+      <workItem from="1597826328143" duration="2705000" />
+      <workItem from="1597841764254" duration="351000" />
+      <workItem from="1597920027550" duration="4797000" />
+      <workItem from="1597963820561" duration="3751000" />
+      <workItem from="1598048394138" duration="5866000" />
+      <workItem from="1598093011173" duration="7043000" />
+      <workItem from="1598263411872" duration="8000" />
+      <workItem from="1598265423831" duration="46000" />
+      <workItem from="1598385935845" duration="614000" />
+      <workItem from="1598391196438" duration="2063000" />
+      <workItem from="1598438238348" duration="2881000" />
+      <workItem from="1598476858306" duration="299000" />
+      <workItem from="1599432390948" duration="587000" />
+      <workItem from="1600340934952" duration="2458000" />
+      <workItem from="1600343556594" duration="717000" />
+      <workItem from="1600367429513" duration="764000" />
+      <workItem from="1600368763600" duration="1048000" />
+      <workItem from="1600978698616" duration="1690000" />
     </task>
+    <task id="LOCAL-00001" summary="fin login admin">
+      <created>1597841962304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597841962304</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ok">
+      <created>1598053042554</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598053042554</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add translate">
+      <created>1598443418942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598443418942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fin login admin" />
+    <MESSAGE value="end branch begin" />
+    <MESSAGE value="ok" />
+    <MESSAGE value="add translate" />
+    <option name="LAST_COMMIT_MESSAGE" value="add translate" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="142" y="0" key="SettingsEditor" timestamp="1597518667668">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597535220142">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597518667668" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1597535220142" />
+    <state x="446" y="106" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598052344074">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="106" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1598052344074" />
+    <state x="371" y="95" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597823216932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="95" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1597823216932" />
+    <state x="428" y="63" key="NewPhpClassDialog" timestamp="1597762584915">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="428" y="63" key="NewPhpClassDialog/0.0.1280.680@0.0.1280.680" timestamp="1597762584915" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1597574550883">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597574550883" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600978784695">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600978784695" />
   </component>
 </project>
