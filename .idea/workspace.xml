@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01e285e3-f2e8-4ee8-b210-eafc8f2b7d03" name="Default Changelist" comment="add translate">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ProfileRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/CategoryDatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AdminDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AdminDatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashborad/settings/shippings/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashborad/settings/shippings/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,20 +168,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\ecommerce_formation\app\models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Formation laravel\ecommerce_formation\database" />
+      <recent name="C:\Formation laravel\ecommerce_formation\app\Http\Requests" />
       <recent name="C:\xampp\htdocs\ecommerce_formation\resources\lang\en" />
       <recent name="C:\xampp\htdocs\ecommerce_formation\resources\lang\ar\admin" />
       <recent name="C:\xampp\htdocs\ecommerce_formation\resources\lang" />
-      <recent name="C:\xampp\htdocs\ecommerce_formation\app\Helpers" />
-      <recent name="C:\xampp\htdocs\ecommerce_formation\resources\views\dashborad\settings\shippings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Formation laravel\ecommerce_formation\resources\views\dashborad\settings\shippings" />
+      <recent name="C:\Formation laravel\ecommerce_formation\resources\views\dashborad\settings\shippings\free" />
+      <recent name="C:\xampp\htdocs\ecommerce_formation\app\models" />
     </key>
   </component>
   <component name="RunManager">
@@ -215,7 +225,10 @@
       <workItem from="1600343556594" duration="717000" />
       <workItem from="1600367429513" duration="764000" />
       <workItem from="1600368763600" duration="1048000" />
-      <workItem from="1600978698616" duration="1690000" />
+      <workItem from="1600978698616" duration="5638000" />
+      <workItem from="1601066617628" duration="12000" />
+      <workItem from="1601155646129" duration="450000" />
+      <workItem from="1601199406825" duration="3745000" />
     </task>
     <task id="LOCAL-00001" summary="fin login admin">
       <created>1597841962304</created>
@@ -238,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598443418942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add translate">
+      <created>1600980446361</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600980446361</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +297,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="95" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1597823216932" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1601155703329">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601155703329" />
     <state x="428" y="63" key="NewPhpClassDialog" timestamp="1597762584915">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -285,9 +309,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597574550883" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600978784695">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600980455030">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600978784695" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600980455030" />
   </component>
 </project>
