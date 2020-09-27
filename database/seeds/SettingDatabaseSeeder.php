@@ -1,8 +1,7 @@
 <?php
 
-use Illuminate\Database\Seeder;
 use App\Models\Setting;
-use App\Models\SettingTranslation;
+use Illuminate\Database\Seeder;
 
 class SettingDatabaseSeeder extends Seeder
 {
@@ -14,26 +13,30 @@ class SettingDatabaseSeeder extends Seeder
     public function run()
     {
         Setting::setMany([
-            'default_lcoal' => 'ar',
-            'default_timezone' => 'Africa/cairo',
-            'reviews_enabled' => 'true',
-            'auto_approve_reviews' => 'true',
-            'supported_currencies' => ['USD','USD'],
-            'default_currency' => 'USD',
-            'store_email' => 'admin@ecommerce.com',
-            'search_engine' => 'mysql',
-            'local_shippings_cost' => '0',
-            'outer_shippings_cost' => '0',
-            'free_shippings_cost' => '0',
+         'default_locale'=>'ar',
+         'default_timezone'=>'Africa/Cairo',
+         'reviews_enabled'=>true,
+         'auto_approve_reviews'=>true,
+         'supported_currencies'=>['USD','DA'],
+         'default_currency'=>'USD',
+         'store_email'=>'admin@ecommerce.test',
+         'search_engine'=>'mysql',
+         'local_shipping_cost'=>0,
+         'outer_shipping_cost'=>0,
+         'free_shipping_cost'=>0,
 
-            'translatable' => [
-                'store_name' => 'Flee',
-                'free_shiping_label' => 'Free Shiping',
-                'lcoal_label' => 'local shiping',
-                'outer_label' => 'outer shipiing',
-            ],
+         'translatable'=>[
+             'store_name'=>'متجر الكتروني',
+
+             'free_shipping_label'=>'توصيل مجاني',
+             'local_label'=>'توصيل داخلي',
+             'outer_label'=>'توصيل خارجي',
+         ]
 
 
         ]);
+
+
+
     }
 }
