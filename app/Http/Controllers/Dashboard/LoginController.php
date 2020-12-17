@@ -15,7 +15,7 @@ class LoginController extends Controller
         return view('dashborad.auth.login');
     }
 
-    public function postlogin(AdminloginRequest$request){
+    public function postlogin(AdminloginRequest $request){
 
         //validation
         $remember_me=$request->has('remember_me')? true:false;
@@ -26,4 +26,17 @@ class LoginController extends Controller
         return redirect()->back()->with(['error'=>'les information non valide']);
 
     }
+    public function logout(){
+        $gaurd=$this->getGaurd();
+        $gaurd->logout();
+        return redirect()->route('admin.login');
+
+    }
+
+    private function getGaurd()
+    {
+        return auth('admin');
+    }
+
+
 }
