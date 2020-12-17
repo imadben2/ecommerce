@@ -19,16 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01e285e3-f2e8-4ee8-b210-eafc8f2b7d03" name="Default Changelist" comment="add translate">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ProfileRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CategoryDatabaseSeeder.php" afterDir="false" />
+    <list default="true" id="01e285e3-f2e8-4ee8-b210-eafc8f2b7d03" name="Default Changelist" comment="end _ shippings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/AdminDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AdminDatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashborad/settings/shippings/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashborad/settings/shippings/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashborad/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashborad/includes/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +224,20 @@
       <workItem from="1600978698616" duration="5638000" />
       <workItem from="1601066617628" duration="12000" />
       <workItem from="1601155646129" duration="450000" />
-      <workItem from="1601199406825" duration="3745000" />
+      <workItem from="1601199406825" duration="8342000" />
+      <workItem from="1602070232551" duration="69000" />
+      <workItem from="1603878141478" duration="925000" />
+      <workItem from="1604523495167" duration="1918000" />
+      <workItem from="1606239591064" duration="486000" />
+      <workItem from="1606412635437" duration="979000" />
+      <workItem from="1606762738440" duration="1453000" />
+      <workItem from="1606817807951" duration="1190000" />
+      <workItem from="1606996432748" duration="18000" />
+      <workItem from="1607030018337" duration="167000" />
+      <workItem from="1607108641779" duration="28000" />
+      <workItem from="1607346177428" duration="2255000" />
+      <workItem from="1607892842453" duration="964000" />
+      <workItem from="1608206552867" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="fin login admin">
       <created>1597841962304</created>
@@ -258,7 +267,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600980446361</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="end _ shippings">
+      <created>1601203541708</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601203541708</updated>
+    </task>
+    <task id="LOCAL-00006" summary="end _ shippings">
+      <created>1601203560572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601203560572</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +305,8 @@
     <MESSAGE value="end branch begin" />
     <MESSAGE value="ok" />
     <MESSAGE value="add translate" />
-    <option name="LAST_COMMIT_MESSAGE" value="add translate" />
+    <MESSAGE value="end _ shippings" />
+    <option name="LAST_COMMIT_MESSAGE" value="end _ shippings" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597535220142">
@@ -309,9 +333,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597574550883" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600980455030">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601203565186">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600980455030" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601203565186" />
   </component>
 </project>

@@ -1,18 +1,22 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Mcamara\LaravelLocalization\LaravelLocalization;
 
 
 Route::group(
     [
-        'prefix' => LaravelLocalization::setLocale(),
+        'prefix' => (new Mcamara\LaravelLocalization\LaravelLocalization)->setLocale(),
         'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
     ], function () {
 
 
-    Route::group(['namespace' => 'Dashboard', 'prefix' => 'admin'], function () {
+    Route::group(['namespace' => 'Dashboard','middleware'=>'auth:admin','prefix' => 'admin'], function () {
 
         Route::get('/', 'DashboardController@index')->name('admin.dashboard');
+        Route::get('logout','LoginController@logout')->name('admin.logout');
+
+
 
         Route::group(['prefix' => 'settings'], function () {
             Route::get('shipping-methods/{type}', 'SettingsController@editShipingMethods')
